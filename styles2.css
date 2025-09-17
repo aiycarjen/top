@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jen{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-jen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 2rem;
+    color: white ;
+    text-decoration: none;
+    
+}
+
+.menu{
+display: flex;
+list-style: none;
+align-items: center;
+}
+
+.menu li{
+ margin: 0 1rem;
+}
+
+.menu li a{
+color: #fff;
+text-decoration: none;
+}
+ .jendy{
+    background-color: rgb(202, 201, 201);
+ }
+
+ .jendy-con{
+    display: flex;
+ }
+ .jendy-info{
+    width: 100%;
+    padding: 2rem;
+ }
+
+ .jendy-info h3 {
+    font-size: 2rem;
+
+ }
+
+ .jendy-info p {
+    margin: 1rem 0;
+
+ }
+
+ .jendy-info .jendy-btn {
+    background-color: rgb(255, 204, 0);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+ .jendy-img {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 5px;
+ }
+ 
+ .dee-con{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
+ }
+
+ .dee-title{
+   margin: 2rem 0;
+ }
+
+ .dee-item img {
+   width: 100%;
+
+ }
+
+ .dee-item  h4{
+   margin-top: 1rem;
+ }
+
+ .dee-item p {
+   margin: 1rem 0;
+ }
+
+ .dee-item a {
+   display: inline-block;
+   color: #fff;
+   background-color: #f7bb2f;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+ }
